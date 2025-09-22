@@ -1,0 +1,6 @@
+// vercel.json (프로젝트 루트에 생성)
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
