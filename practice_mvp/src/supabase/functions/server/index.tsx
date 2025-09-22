@@ -48,7 +48,7 @@ app.post("/make-server-1aa0d6ee/analyze-ingredient", async (c) => {
     console.log('Image data header:', imageData.substring(0, 50));
 
     // OpenAI API 키 확인
-    const openaiKey = Deno.env.get('OPENAI_API_KEY');
+    const openaiKey = Deno.env.get('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');
     if (!openaiKey) {
       console.error('OPENAI_API_KEY environment variable is not set');
       return c.json({ 
